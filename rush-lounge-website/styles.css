@@ -79,11 +79,12 @@ body {
 }
 
 .logo-img {
-    width: 95%;
-    max-width: 500px;
+    width: 90%; /* slightly smaller width */
+    max-width: 400px; /* reduced from 500px */
     height: auto;
-    margin: 20px auto;
+    margin: 10px auto; /* smaller vertical space */
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+    display: block; /* ensures margin auto works */
 }
 
 .compact-logo {
@@ -93,8 +94,10 @@ body {
 }
 
 .main-title {
-    margin: 30px 0;
+    margin: 10px 0; /* reduced vertical margin */
+    padding: 0; /* remove any extra space inside */
     background-color: transparent;
+    text-align: center; /* center the logo if needed */
 }
 
 .menu-section {
@@ -192,7 +195,7 @@ body {
 
 .footer {
     margin-top: 20px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #e0f0e0;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     padding: 15px 0;
