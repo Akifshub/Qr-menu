@@ -202,15 +202,15 @@ body {
 }
 
 .phone {
-    color: #e0f0e0;
+    color: #e0f0e0 !important; /* Force the color */
     text-decoration: none;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .highlight {
-    color: #ffffcc;
-    font-weight: bold;
-    font-size: 1.2rem;
+    color: #ffffcc !important;
+    font-weight: bold !important;
+    font-size: 1.2rem !important;
 }
 
 /* Menu Specific Styles */
