@@ -21,7 +21,7 @@ body {
     width: 100%;
     height: 100%;
     background-image: url('https://www.transparenttextures.com/patterns/black-thread-light.png'), 
-                      linear-gradient(rgba(34, 92, 9, 0.85), rgba(7, 21, 3, 0.9));
+                      linear-gradient(rgba(38, 104, 10, 0.85), rgba(12, 40, 5, 0.9));
     background-blend-mode: overlay;
     z-index: -1;
 }
