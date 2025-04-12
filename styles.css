@@ -79,25 +79,27 @@ body {
 }
 
 .logo-img {
-    width: 90%; /* slightly smaller width */
-    max-width: 400px; /* reduced from 500px */
+    width: 75%;           /* slightly smaller than before */
+    max-width: 350px;     /* not too small */
     height: auto;
-    margin: 10px auto; /* smaller vertical space */
+    margin: 0 auto;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
-    display: block; /* ensures margin auto works */
+    display: block;
+    border: 6px solid transparent; /* subtle spacing without visible color */
+    padding: 15px;        /* creates space inside the border */
 }
 
 .compact-logo {
-    max-width: 300px;
+    max-width: 150px;
     height: auto;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
 }
 
 .main-title {
-    margin: 10px 0; /* reduced vertical margin */
-    padding: 0; /* remove any extra space inside */
+    margin: 30px 0;       /* increased vertical space */
+    padding: 20px 0;      /* more space inside the container */
     background-color: transparent;
-    text-align: center; /* center the logo if needed */
+    text-align: center;
 }
 
 .menu-section {
@@ -321,10 +323,6 @@ body {
         margin: 0 -15px;
         width: calc(100% + 30px);
         height: 70px;
-    }
-    
-    .compact-logo {
-        max-width: 220px;
     }
     
     .menu-btn {
