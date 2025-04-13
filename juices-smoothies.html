@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <title>Refresh Juice & coffee</title>
+    <title>Juices &amp; Smoothies - Refresh Lounge and Coffee Bar</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="juices-smoothies.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        .logo-img {
-            max-width: 500px; /* Increased logo size */
+        .background {
+            backdrop-filter: blur(10px); /* Blurry background */
+            background-color: transparent; /* No color */
         }
     </style>
 </head>
 <body>
     <div class="background"></div>
-    <div class="container">
+    <div class="container menu-page">
+        <header class="header sticky-header">
+            <a href="index.html" class="back-btn">←</a>
+            <img src="images/logo.png" alt="Logo" class="compact-logo" />
+        </header>
 
-        <div class="main-title">
-            <img src="images/logo.png" alt="Logo" class="logo-img" />
-        </div>
+        <h2 class="menu-page-title">Juices &amp; Smoothies</h2>
 
-        <div class="menu-section">
-            <a href="coffee-menu.html" class="menu-btn">Кафе / Kafe / Coffee</a>
-            <a href="drinks-menu.html" class="menu-btn">Пијалоци / Pije / Drinks</a>
-            <a href="#" class="menu-btn">Сладоледи / Akullore / Ice Cream</a>
-            <a href="juices-smoothies.html" class="menu-btn">Juices & Smoothies </a>
-            <a href="deeserts-menu.html" class="menu-btn">Десерти / Ëmbëlsira / Desserts</a>
+        <div class="juice-smoothie-menu-section">
+            <a href="juices-menu.html" class="juice-smoothie-menu-btn">Juices</a>
+            <a href="smoothies-menu.html" class="juice-smoothie-menu-btn">Smoothies</a>
         </div>
 
         <div class="social-links">
@@ -41,9 +42,9 @@
         <footer class="footer">
             <p>
                 Контакт / Kontakt / Contact:
-              <a href="tel:+38972764046" class="highlight">+389 71592592</a>
+                <a href="tel:+38971592592" class="highlight">+389 71592592</a>
             </p>
-          </footer>
+        </footer>
     </div>
 </body>
 </html>
